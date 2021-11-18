@@ -1,0 +1,63 @@
+.home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-image: url(../../image/gabriel-tovar-30xixEVV0yQ-unsplash\ 1.png);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.5;
+    z-index: -1; 
+}
+.home_Content {
+    position: relative;
+    width: 80vw;
+    height: 120px;
+    margin-top: 200px;
+}
+.home_ContentInfo {
+    display: flex;
+    
+}
+.home_ContentArrow {
+    width: 90vw;
+}
+.home_ContentVG {
+    width: 80vw;
+    height: 60px;
+    margin: 10px;
+}
+.home_ContentVGBtn {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #C10303;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.home_ContentVGBtn:hover {
+    color: #C10303;
+}
+.home_Navbar {
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    top: 0;
+}

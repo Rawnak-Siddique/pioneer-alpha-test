@@ -1,0 +1,64 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: Roboto;
+    
+}
+@media (max-width: 700px) { 
+    .about {
+        flex-direction: column;
+    }
+    .about_Right {
+        align-self: center;
+        width: 600px;
+        padding: 10px;
+    }
+    .about_Right > p {
+        margin: 10px;
+    }
+}
+.about_Left {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    padding: 10%;
+}
+.about_Right {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.about_Right > p {
+    margin: 5px;
+    margin-top: 30px;
+}
+.about_Right > h1 {
+    padding-top: 50px;
+    
+}
+.about_LeftImg1 {
+    height: 190px;
+    width: 48px;
+    margin: 28px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.about_LeftImg2 {
+    height: 190px;
+    width: 48px;
+    margin: 28px;
+    margin-top: 52px;
+    border-radius: 8px;
+}
+.about_LeftImg3 {
+    height: 190px;
+    width: 48px;
+    margin: 28px;
+    margin-top: 72px;
+    border-radius: 8px;
+}

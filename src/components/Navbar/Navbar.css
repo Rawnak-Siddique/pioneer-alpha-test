@@ -1,0 +1,59 @@
+.navbar {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    display: flex;
+}
+.navbar_main {
+    width: 100vw;
+    height: 70px;    
+}
+.navbar_Link {
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+.navbar_Link:hover {
+    color: #C10303;
+}
+.navbar_Menu {
+    visibility: hidden;
+}
+@media (max-width: 650px) {
+    .navbar {
+        visibility: hidden;
+    }
+    .navbar_Menu {
+        visibility: visible;
+    }
+    .navbar_side {
+        visibility: visible;
+    }
+}
+.navbar_side {
+    background-color: #FBF6F6;
+    width: 160px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    justify-self: start;
+}
+.side {
+    border-bottom: 1px solid #000;
+    background-color: #FBF6F6;
+    width: 150px;
+    padding-left: 10px;
+}
+.side:hover{
+    color: #C10303;
+}
+.navbar_side.active {
+    left: 0;
+    transition: 350ms;
+}
